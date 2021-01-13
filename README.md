@@ -2,7 +2,7 @@
 ## Link: https://morning-waters-41135.herokuapp.com/
 
 
-### Not logged in
+### If you are not logged in
 
 - If you are not logged in, you can still browse different trucks, search for trucks that you are interested in, click into a truck (if it is open) to look at its menus, and search for food. You won't be able to order food unless you are logged in.
 
@@ -14,7 +14,7 @@ log in login credentials (session duration is 3 hours):
 
 - Or you can create a new account by clicking the 'Sign up' button at the bottom of the login box. When signing up, you can choose to be a customer or a vendor.
 
-### Logged in as Admin (admin)
+### If you logged in as Admin (admin)
 - As an admin, you can browse the list of trucks on the home page and click into a truck to look at the food that it offers. However, you can't order food.
 
 - You can click your profile picture at the upper right corner to go to the account setting page
@@ -27,7 +27,7 @@ log in login credentials (session duration is 3 hours):
     - All Trucks: You can remove a truck. This truck will be deleted an cannot be recovered.
   4. Order History: you can browse all the transaction history and delete transaction history.
 
-### Logged in as user (customer)
+### If you logged in as user (customer)
 - As a customer, you can browse the list of trucks on the home page and click into a truck to look at the food that it offers. You can add food to or remove food from your cart. You can checkout by clicking the 'Checkout' button at the bottom of the 'Your Order' cart. Then you will be redirected to 'Confirm Order' page.
 
 - You can either not confirm your order and go back to home page by clicking 'SKIP THE LINE' logo at the upper left corner, or you can confirm your order by clicking the 'Confirm' button. After clicking 'Confirm', you will be redirected to a panel where there is a friendly thank you message that will waste 2.5 seconds of your life, and then you will be sent back to the home page automatically.
@@ -40,7 +40,7 @@ log in login credentials (session duration is 3 hours):
   3. Order History: you can browse all of your order history. You can remove a specific piece of order history from your 'order History' table. However, you will not be able to delete it. In other words, this piece of order history will no longer be visible from your 'order History' table, but the vendor that you ordered from and the admin can still see it from their 'Order History' tables.
 
 
-### Logged in as user2 (vendor)
+### If you logged in as user2 (vendor)
 - As an vendor, you can browse the list of trucks on the home page and click into a truck to look at the food that it offers. However, you can't order food.
 
 - You can click your profile picture at the upper right corner to go to the account setting page
