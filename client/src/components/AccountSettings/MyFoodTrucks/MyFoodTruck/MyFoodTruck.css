@@ -1,0 +1,20 @@
+.my-foodtruck-input {
+    height: 20px;
+    font-size: 15px;
+    padding: 10px;
+    margin: 14px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    text-indent:5px;
+    width: 20%;
+}
+
+.my-foodtruck-input:focus {
+    outline: 1px gray dotted;
+    outline-offset: -3px;
+    border: 1px solid orange;
+}
+
+.my-foodtruck-input:hover {
+    border: 1px solid orange;
+}

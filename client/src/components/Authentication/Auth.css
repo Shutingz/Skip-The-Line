@@ -1,0 +1,51 @@
+.auth-container {
+    top: calc(80px + 7%);
+    min-height: 68%;
+}
+
+.auth-input {
+    font-size: 16px;
+    color: lightgray;
+    border-radius: 5px;
+}
+
+.auth-guide-operater, .auth-guide-email {
+    text-align: center;
+    color: #666666;
+}
+
+.auth-guide-operater {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.auth-guide-email {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.auth-redirect-container {
+    margin: 1% 5%;
+    text-align: center;
+}
+
+.auth-redirect-guide {
+    font-size: 13px;
+    color: rgb(152,152,152);
+}
+
+.auth-redirect-button {
+    border: none;
+}
+
+.auth-redirect-button:focus {
+    outline: black 1px dotted;
+    outline-offset: -1px;
+}
+
+.auth-redirect-button:hover {
+    cursor: pointer;
+    color: rgb(47, 31, 194);
+    text-decoration: underline;
+    font-weight: bold;
+}

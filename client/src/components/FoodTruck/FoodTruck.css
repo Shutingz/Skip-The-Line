@@ -1,0 +1,58 @@
+.foodtruck-container {
+  background-color: white;
+  border-radius: 8px;
+  padding: 5px;
+  margin: 15px 10%;
+  display: flex;
+  cursor: default;
+}
+
+.foodtruck-container-clickable:hover {
+  box-shadow: 0 0 8px rgb(200, 200, 200);
+}
+
+.foodtruck-container-clickable {
+  cursor: pointer;
+}
+
+.foodtruck-image {
+  height: 150px;
+  border-radius: 3px;
+}
+
+.foodtruck-info {
+  margin: 10px 15px 10px 30px;
+  width: calc(75% - 150px);
+  border-right: 1px solid #afafaf;
+}
+
+.foodtruck-name {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.foodtruck-wait-time {
+  margin-bottom: 20px;
+  color: gray;
+}
+
+.foodtruck-description {
+
+}
+
+.foodtruck-status-open, .foodtruck-status-closed {
+  font-weight: bold;
+  font-size: 22px;
+  width: 25%;
+  margin-top: 60px;
+  text-align: center;
+}
+
+.foodtruck-status-open {
+  color: green;
+}
+
+.foodtruck-status-closed {
+  color: grey;
+}

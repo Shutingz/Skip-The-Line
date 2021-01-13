@@ -1,0 +1,43 @@
+/*.menu-item-input {*/
+    /*height: 20px;*/
+    /*font-size: 15px;*/
+    /*padding: 10px;*/
+    /*margin: 14px;*/
+    /*border: 1px solid lightgray;*/
+    /*border-radius: 5px;*/
+    /*text-indent:5px;*/
+/*}*/
+
+/*.menu-item-input:focus {*/
+    /*outline: 1px gray dotted;*/
+    /*outline-offset: -3px;*/
+    /*border: 1px solid orange;*/
+/*}*/
+
+/*.menu-item-input:hover {*/
+    /*border: 1px solid orange;*/
+/*}*/
+
+/*.menu-item-name {*/
+    /*width: 20%;*/
+/*}*/
+
+/*.menu-item-description {*/
+    /*width: 70%;*/
+/*}*/
+
+.menu-item-remove-button:hover {
+    color: red;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.menu-item-remove-button:active {
+    color: darkred;
+    transition: 0.3s;
+}
+
+.menu-item-remove-button-disabled, .menu-item-remove-button-disabled:hover, .menu-item-remove-button-disabled:active {
+    color: gray;
+    cursor: default;
+}

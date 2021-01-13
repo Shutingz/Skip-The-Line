@@ -1,0 +1,33 @@
+.my-account-container {
+    top: 300px;
+    min-height: 250px;
+}
+
+.my-account-logout-button {
+    margin: 45px 5px 5px 5px;
+}
+
+.my-account-logout-button-color {
+    background-color: #ff4600;
+    transition: background 0.3s;
+}
+
+.my-account-logout-button-color:hover {
+    background-color: #ba000d;
+    transition: background 0.3s;
+}
+
+.my-account-logout-button:focus {
+    outline: 1px white dotted;
+    outline-offset: -3px;
+}
+
+.my-account-logout-button-color:active {
+    background-color: #ff822a;
+    transition: background 0.2s;
+}
+
+
+.bye {
+    margin-left: 40%;
+}

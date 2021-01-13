@@ -1,0 +1,16 @@
+.food-filter-input {
+    margin-left: 4%;
+    background: white;
+    border-radius: 8px;
+    border: none;
+    padding: 7px 20px;
+    width: calc(50% - 40px);
+    height: 40px;
+    font-size: 20px;
+}
+
+.food-filter-input:focus {
+    outline: none;
+    box-shadow: 0 0 8px #c8c8c8;
+}
+

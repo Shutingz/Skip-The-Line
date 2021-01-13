@@ -1,0 +1,13 @@
+.admin-board-container {
+    width: 80%;
+    position: absolute;
+    left: 10%;
+    margin-bottom: 10%;
+    top: 300px;
+    display: flex;
+    flex-direction: column;
+    /*box-shadow:0 0 8px #999;*/
+    /*background-color: white;*/
+    border-radius: 5px;
+}
+

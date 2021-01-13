@@ -1,0 +1,59 @@
+.my-foodtrucks-container {
+    width: 80%;
+    position: absolute;
+    left: 10%;
+    margin-bottom: 10%;
+    top: 300px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+}
+
+.my-foodtrucks-truck-info {
+    margin-bottom: 30px;
+    background-color: white;
+    padding: 20px 25px;
+    border-radius: 5px;
+    box-shadow: 0 0 8px lightgray;
+}
+
+.my-foodtrucks-info-header-container {
+    display: flex;
+}
+
+.my-foodtrucks-info-header {
+    padding-bottom: 10px;
+}
+
+.my-foodtrucks-info-button {
+    margin-top: 24px;
+    margin-left: 25px;
+}
+
+.my-foodtrucks-info-button:hover {
+    color: orange;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.my-foodtrucks-info-button:active {
+    color: #e65c00;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.my-foodtrucks-delete-button:hover {
+    color: red;
+    transition: 0.3s;
+}
+
+.my-foodtrucks-delete-button:active {
+    color: darkred;
+    transition: 0.3s;
+}
+
+.my-foodtrucks-info-button-disabled, .my-foodtrucks-info-button-disabled:hover, .my-foodtrucks-info-button-disabled:active {
+    color: gray;
+    cursor: default;
+}
+

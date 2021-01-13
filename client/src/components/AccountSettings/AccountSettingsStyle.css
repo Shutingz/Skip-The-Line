@@ -1,0 +1,65 @@
+.account-setting-input {
+    height: 30px;
+    font-size: 16px;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    text-indent:5px;
+    background-color: white;
+}
+
+.account-setting-input:focus {
+    outline: 1px gray dotted;
+    outline-offset: -3px;
+}
+
+.account-setting-button {
+    display: inline-block;
+    padding: 15px 25px;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.account-setting-button-color {
+    background-color: orange;
+    transition: background 0.3s;
+}
+
+.account-setting-button-color:hover {
+    background-color: #e65c00;
+    transition: background 0.3s;
+}
+
+.account-setting-button:focus {
+    outline: 1px white dotted;
+    outline-offset: -3px;
+}
+
+.account-setting-button-color:active {
+    background-color:#ffa366;
+    transition: background 0.3s;
+}
+
+.log-container {
+    top: 300px;
+    min-height: 450px;
+    width: 80%;
+    position: absolute;
+    left: 10%;
+    margin-bottom: 10%;
+}
+
+.log-remove-row-button {
+    color: gray;
+    font-size: 20px;
+}
+
+.transaction-table-header {
+    font-weight: bold;
+}

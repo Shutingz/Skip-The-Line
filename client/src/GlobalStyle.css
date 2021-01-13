@@ -1,0 +1,39 @@
+.container {
+    width: 40%;
+    background-color: white;
+    border-radius: 8px;
+    position: absolute;
+    left: 30%;
+    margin-bottom: 10%;
+    box-shadow: 0 0 8px lightgray;
+}
+
+.header {
+    text-align: center;
+    margin: 20px 10% 0 10%;
+    padding-bottom: 10px;
+    border-bottom: 1px solid lightgray;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    margin: 8% 10%;
+}
+
+.filter-button {
+    position: relative;
+    border: none;
+    color: gray;
+    right: 50px;
+    font-size: 20px;
+}
+
+.filter-button:hover {
+    color: orange;
+    cursor: pointer;
+}
+
+.filter-button:focus {
+    outline: none;
+}

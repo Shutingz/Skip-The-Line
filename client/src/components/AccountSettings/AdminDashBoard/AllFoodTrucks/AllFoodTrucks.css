@@ -1,0 +1,40 @@
+.all-trucks-container {
+    margin-bottom: 50px;
+    margin-top: 50px;
+    /*background-color: white;*/
+    /*padding: 20px 25px;*/
+    /*border-radius: 5px;*/
+    /*box-shadow:0 0 8px #999;*/
+}
+
+.all-trucks-one-truck {
+    margin-bottom: 25px;
+}
+
+.all-trucks-remove-truck-button {
+    display: inline-block;
+    padding: 5px 10px;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 13px;
+    background-color: #ff4600;
+    transition: background 0.3s;
+}
+
+.all-trucks-remove-truck-button:hover {
+    background-color: #ba000d;
+    transition: background 0.3s;
+}
+
+.all-trucks-remove-truck-button:focus {
+    outline: 1px white dotted;
+    outline-offset: -3px;
+}
+
+.all-trucks-remove-truck-button:active {
+    background-color: #ff822a;
+    transition: background 0.2s;
+}

@@ -1,0 +1,16 @@
+.order-container {
+  margin: 0 15px;
+  padding: 10px 0;
+}
+
+.order-price {
+  float: right;
+}
+
+.order-name {
+  margin-right: 10px;
+}
+
+.order-num {
+  margin-right: 5px;
+}

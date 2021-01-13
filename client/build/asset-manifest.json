@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b4e102bb.chunk.css",
+    "main.js": "/static/js/main.a3531afe.chunk.js",
+    "main.js.map": "/static/js/main.a3531afe.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.844668cf.js",
+    "runtime-main.js.map": "/static/js/runtime-main.844668cf.js.map",
+    "static/css/2.fa349ff9.chunk.css": "/static/css/2.fa349ff9.chunk.css",
+    "static/js/2.4e383278.chunk.js": "/static/js/2.4e383278.chunk.js",
+    "static/js/2.4e383278.chunk.js.map": "/static/js/2.4e383278.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.b49e4abc273c5cf7d6c2dfbc5b72e077.js": "/precache-manifest.b49e4abc273c5cf7d6c2dfbc5b72e077.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.fa349ff9.chunk.css.map": "/static/css/2.fa349ff9.chunk.css.map",
+    "static/css/main.b4e102bb.chunk.css.map": "/static/css/main.b4e102bb.chunk.css.map",
+    "static/js/2.4e383278.chunk.js.LICENSE.txt": "/static/js/2.4e383278.chunk.js.LICENSE.txt",
+    "static/media/5e7ad20e3fe6637a8a43bc0e.png": "/static/media/5e7ad20e3fe6637a8a43bc0e.bb0cad4e.png",
+    "static/media/5e7af44b4b82156f9a045419.png": "/static/media/5e7af44b4b82156f9a045419.10e80336.png",
+    "static/media/5e7afc482092f5e634d49c03.png": "/static/media/5e7afc482092f5e634d49c03.69055242.png",
+    "static/media/5e7b07c21d228d06767ce4bf.png": "/static/media/5e7b07c21d228d06767ce4bf.e8a0ccdc.png",
+    "static/media/5e7b087d1d228d06767ce4c1.png": "/static/media/5e7b087d1d228d06767ce4c1.089ed91d.png",
+    "static/media/5e7bfe1c3b51349737ddaa12.png": "/static/media/5e7bfe1c3b51349737ddaa12.8d1ac9cd.png",
+    "static/media/5e7bfe4d3b51349737ddaa14.png": "/static/media/5e7bfe4d3b51349737ddaa14.53e766e8.png",
+    "static/media/5e7bfe753b51349737ddaa16.png": "/static/media/5e7bfe753b51349737ddaa16.b7dd139e.png",
+    "static/media/5e7bfe9a3b51349737ddaa18.png": "/static/media/5e7bfe9a3b51349737ddaa18.04b3a40e.png",
+    "static/media/SkipTheLineLogo.png": "/static/media/SkipTheLineLogo.9265427d.png",
+    "static/media/TruckDefaultImage.png": "/static/media/TruckDefaultImage.2b31eb13.png",
+    "static/media/UserDefaultImage.png": "/static/media/UserDefaultImage.c50f2e35.png",
+    "static/media/font-awesome.min.css": "/static/media/fontawesome-webfont.fee66e71.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.844668cf.js",
+    "static/css/2.fa349ff9.chunk.css",
+    "static/js/2.4e383278.chunk.js",
+    "static/css/main.b4e102bb.chunk.css",
+    "static/js/main.a3531afe.chunk.js"
+  ]
+}

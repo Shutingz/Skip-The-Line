@@ -1,0 +1,94 @@
+.order-summary-subtotal {
+  position: absolute;
+  bottom: 50px;
+  padding-top: 13px;
+  height: 37px;
+  width: 100%;
+  text-align: center;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.order-summary-checkout-button {
+  position: absolute;
+  bottom: 0;
+  padding-top: 11px;
+  height: 39px;
+  width: 100%;
+  background-color: orange;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  transition: background 0.8s;
+}
+
+.order-summary-checkout-button:hover {
+  cursor: pointer;
+  background-color: #e65c00;
+}
+
+.order-summary-checkout-button:focus {
+  outline: 1px white dotted;
+  outline-offset: -3px;
+}
+
+.order-summary-checkout-button:active {
+  outline: 1px white dotted;
+  outline-offset: -3px;
+  background-color:#ffa366;
+  transition: background 0s;
+}
+
+.order-summary-empty-container {
+  position: fixed;
+  right: 5%;
+  top: 215px;
+  height: 45%;
+  max-width: 35%;
+}
+
+.order-summary-container, .order-summary-empty-container {
+  background-color: white;
+  border-radius: 5px;
+  position: fixed;
+  right: 4%;
+  top: 266px;
+  height: 45%;
+  min-width: 38%;
+}
+
+.order-summary {
+  max-height: calc(100% - 176px);
+  display: flex;
+  flex-direction: column;
+  overflow: -moz-scrollbars-vertical;
+  overflow-y: scroll;
+}
+
+/* https://stackoverflow.com/questions/35663653/make-a-scrollbar-always-visible-in-a-div-chrome */
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: rgba(0,0,0,.5);
+  -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+}
+
+.order-summary-empty {
+  margin: 17% 25px 0 25px;
+  font-size: 20px;
+}
+
+.order-summary, .order-summary-subtotal {
+  border-top: #cccaca solid 1px;
+}
+
+.order-summary-header {
+  margin-left: 25px;
+}

@@ -1,0 +1,40 @@
+.all-users-container {
+    margin-bottom: 50px;
+    background-color: white;
+    padding: 20px 25px;
+    border-radius: 5px;
+    box-shadow:0 0 8px #999;
+}
+
+.all-users-remove-user-button {
+    display: inline-block;
+    padding: 5px 10px;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 13px;
+    background-color: #ff4600;
+    transition: background 0.3s;
+}
+
+.all-users-remove-user-button:hover {
+    background-color: #ba000d;
+    transition: background 0.3s;
+}
+
+.all-users-remove-user-button:focus {
+    outline: 1px white dotted;
+    outline-offset: -3px;
+}
+
+.all-users-remove-user-button:active {
+    background-color: #ff822a;
+    transition: background 0.2s;
+}
+
+.all-users-remove-user-button-removed {
+    display: none;
+}
+
